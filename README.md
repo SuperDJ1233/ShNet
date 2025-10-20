@@ -1,2 +1,2 @@
 # ShNet
-Shqipet Network Project dhe Flete-hilet
+Shqipet Network Project dhe Fletë-hiletë
