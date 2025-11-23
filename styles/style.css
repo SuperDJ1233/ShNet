@@ -1,3 +1,42 @@
-h1 {
-    color : red;
+/** {
+    /*outline: 2px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*used to include padding and border brenda width and height*/
+/*}*/
+
+.header-container{
+    color: #5a4949;
+    background-color: #f1e39c;
+    padding: 10px 0;
+}
+
+.navigation-container nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: #e3b75f;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header img,
+.header button{
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+#iconHile{
+    margin: 10px 20px auto;
+    padding: 0;
+}
+
+.header h1{
+    flex: 1;
+    text-align: center;
+    margin: 20px;
 }
