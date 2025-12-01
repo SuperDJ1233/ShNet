@@ -1,9 +1,15 @@
-/** {
-    /*outline: 2px solid red;
+div{
+    outline: 2px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*used to include padding and border brenda width and height*/
-/*}*/
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1e39c;
+}
 
 .header-container{
     color: #5a4949;
@@ -22,6 +28,7 @@
 .header{
     display: flex;
     justify-content: center;
+    padding: 0 50px;
 }
 
 .header img,
@@ -39,4 +46,18 @@
     flex: 1;
     text-align: center;
     margin: 20px;
+}
+
+.body-container{
+    display: flex;
+    gap: 1em;
+    padding: 0 20px;
+}
+
+.side-links{
+    width: 600px;
+}
+
+.foot-note{
+    text-align: center;
 }
