@@ -1,5 +1,5 @@
 div{
-    outline: 2px solid red;
+    outline: 2px solid rgb(255, 119, 0);
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*used to include padding and border brenda width and height*/
@@ -17,12 +17,15 @@ body{
     padding: 10px 0;
 }
 
+.navigation-container{
+    background-color: #e3b75f;
+}
+
 .navigation-container nav{
     display: flex;
     justify-content: space-around;
-    margin: 5px auto;
+    margin: 5px 300px;
     padding: 5px;
-    background-color: #e3b75f;
 }
 
 .header{
@@ -52,6 +55,40 @@ body{
     display: flex;
     gap: 1em;
     padding: 0 20px;
+}
+
+.main-screen{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-list{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.button-redirect{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    width: 20em;
+    height: auto;
+    
+}
+
+.button{
+    padding: 4em;
+    font-size: large;
+    width: 50em;
+}
+
+.center-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45em;
 }
 
 .side-links{
