@@ -9,12 +9,14 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #f1e39c;
+    margin: 2px 10px;
 }
 
 .header-container{
     color: #5a4949;
     background-color: #f1e39c;
-    padding: 10px 0;
+    padding: 0 auto 10px;
+    
 }
 
 .navigation-container{
@@ -34,14 +36,15 @@ body{
     padding: 0 50px;
 }
 
-.header div img,
-.header div button{
-    margin: 20px 10px;
+.header-element button{
+    margin: 20px 5px;
     padding: 10px;
 }
 
 .header-element{
     width: 20em;
+    display: flex;
+    justify-content: center;
 }
 
 #iconHile{
@@ -59,11 +62,14 @@ body{
     display: flex;
     gap: 1em;
     padding: 0 20px;
+    justify-content: space-between;
 }
 
 .main-screen{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    flex: 1 1 auto; /*equivalent to flex:auto*/
 }
 
 .button-list{
@@ -96,9 +102,91 @@ body{
 }
 
 .side-links{
-    width: 600px;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 320px;
 }
 
 .foot-note{
     text-align: center;
+}
+
+.lower-list{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.map-iframe iframe {
+  flex: 1 1 auto;
+  border: 1px solid black;
+  width: 200px;
+  height: 100%;
+}
+
+
+.main-page-consult{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.project-explorer{
+    padding: 10px 0 0 40px;
+    height: 800px;
+    width: 400px;
+    flex: 0 0 auto;
+}
+
+.main-file-previewer{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+}
+
+.reklama{
+    height: 40px;
+}
+
+.right-side-explorer{
+    flex-grow: 1;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.functions-list{
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.changable-iframe{
+    height: 400px;
+}
+
+.file-list-comment{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.file-list{
+    flex: 1;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.comments{
+    flex: 1;
 }
