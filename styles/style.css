@@ -190,3 +190,11 @@ body{
 .comments{
     flex: 1;
 }
+
+details{
+    padding: 0.5em;
+}
+
+.side-links h2{
+    text-align: center;
+} 
