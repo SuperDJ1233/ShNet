@@ -88,6 +88,7 @@ body{
     
 }
 
+
 .button{
     padding: 4em;
     font-size: large;
@@ -99,6 +100,10 @@ body{
     flex-direction: column;
     justify-content: center;
     flex: auto;
+}
+
+details ul{
+    margin: 1px auto 4px 0px;
 }
 
 .side-links{
