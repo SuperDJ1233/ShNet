@@ -1,8 +1,24 @@
+@font-face {
+    font-family: "GTA_font";
+    src: url("./fonts/GTA.otf");
+}
+
 div{
     /*outline: 2px solid rgb(255, 119, 0);*/
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*used to include padding and border brenda width and height*/
+}
+
+#pershendetje{
+    margin: 1em;
+    align-self: center;
+    font-size: 2em;
+    color: rgb(251, 81, 24);
+}
+
+.title{
+    font-family: "GTA_font", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .outlined{
