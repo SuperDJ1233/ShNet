@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "GTA_font";
+    src: url("./fonts/GTA.otf");
+}
+
+div{
+    /*outline: 2px solid rgb(255, 119, 0);*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*used to include padding and border brenda width and height*/
+}
+
+*{
+    color: white;
+}
+
+button{
+    background-color: rgb(3, 74, 90);
+}
+
+#pershendetje{
+    margin: 1em;
+    align-self: center;
+    font-size: 2em;
+    color: rgb(248, 248, 248);
+}
+
+.title{
+    font-family: "GTA_font", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.outlined{
+    outline: 3px solid rgb(17, 133, 48);
+}
+
+hr{
+    background: rgb(79, 158, 26);
+    margin: 0;
+    padding: 0;
+}
+
+    hr.horizontal{
+        height: 2px;
+    }
+
+    hr.vertical{
+        width: 2px;
+        height: auto;
+    }
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #112046;
+    justify-content: space-between;
+    margin: 2px 10px;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-bottom: .5%;
+}
+
+.header-container{
+    color: #de9696;
+    background-color: #514605;
+    padding: 0 auto 10px;
+    margin: 0;
+}
+
+.navigation-container{
+    background-color: #7a7160;
+}
+
+.navigation-container nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 300px;
+    padding: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.header-element button{
+    margin: 20px 5px;
+    padding: 10px;
+}
+
+.header-element{
+    width: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+#iconHile{
+    margin: 10px 20px auto;
+    padding: 0;
+}
+
+.header h1{
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.body-container{
+    flex: 1 1 0;
+    display: flex;
+    gap: 1em;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.main-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /*justify-content: center;*/
+    flex: 1 1 auto; /*equivalent to flex:auto*/
+}
+
+.button-list{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.button-redirect{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    width: 20em;
+    height: auto;
+    
+}
+
+
+.button{
+    padding: 4em;
+    font-size: large;
+    width: 50em;
+}
+
+.center-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+}
+
+details ul{
+    margin: 1px auto 4px 0px;
+}
+
+.side-links{
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 320px;
+}
+
+.foot-note{
+    text-align: center;
+}
+
+.lower-list{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex: 1 0 0;
+    padding: 5em 0;
+}
+
+
+.map-iframe iframe {
+  flex: 1 1 auto;
+  border: 1px solid black;
+  width: 200px;
+  height: 100%;
+}
+
+
+.main-page-consult{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.project-explorer{
+    padding: 10px 0 0 40px;
+    height: 800px;
+    width: 400px;
+    flex: 0 0 auto;
+}
+
+.main-file-previewer{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+}
+
+.reklama{
+    height: 40px;
+}
+
+.right-side-explorer{
+    flex-grow: 1;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.functions-list{
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.changable-iframe{
+    height: 400px;
+}
+
+.file-list-comment{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.file-list{
+    flex: 1;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.comments{
+    flex: 1;
+}
+
+details{
+    padding: 0.5em;
+}
+
+.side-links h2{
+    text-align: center;
+} 
