@@ -26,4 +26,6 @@ if(cookieValue == undefined){
 }else{
     username = cookieValue.split('=')[1];
 }
-document.getElementById("pershendetje").textContent = `Përshëndetje ${username} !`;
+if(username != null){
+    document.getElementById("pershendetje").textContent = `Përshëndetje ${username} !`;
+}
